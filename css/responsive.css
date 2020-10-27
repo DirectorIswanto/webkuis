@@ -1,0 +1,27 @@
+@media(max-width:510px) {
+    header {
+        width: 500px;
+    }
+    header nav {
+        float: none;
+        width: 500px;
+        margin: 0;
+        padding-left: 80px;
+    }
+    header nav ul {
+        width: 300px;
+    }
+    .welcome h1 {
+        font-size: 120px;
+    }
+    .welcome p {
+        font-size: 15px;
+        padding: 0 15%;
+    }
+    .news {
+        grid-template-areas: 'gambar' 'text' 'gambar1' 'text1';
+    }
+    .gambar {
+        grid-area: gambar;
+    }
+}
