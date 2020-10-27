@@ -18,10 +18,4 @@
         font-size: 15px;
         padding: 0 15%;
     }
-    .news {
-        grid-template-areas: 'gambar' 'text' 'gambar1' 'text1';
-    }
-    .gambar {
-        grid-area: gambar;
-    }
 }
